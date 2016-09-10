@@ -18,6 +18,7 @@
     
 }
 @property (strong, nonatomic) IBOutlet MKMapView *mapView;
+
 @property (strong, nonatomic) IBOutlet UISegmentedControl *segmentControllerMap;
 
 - (IBAction)segmenteControllerMapValueChanged:(id)sender;
